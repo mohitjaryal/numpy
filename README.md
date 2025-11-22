@@ -42,10 +42,10 @@ Each notebook focuses on one NumPy concept with explanations, exercises, and exa
 git clone https://github.com/mohitjaryal/numpy.git
 cd numpy
 
-### Setup Environment
+# Setup Environment
 python -m venv venv
 
-### Activate Environment
+# Activate Environment
 
 Mac / Linux
 source venv/bin/activate
@@ -53,9 +53,9 @@ source venv/bin/activate
 Windows
 venv\Scripts\activate
 
-### Install Dependencies
+# Install Dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-### Launch Jupyter Notebook
+# Launch Jupyter Notebook
 jupyter notebook
