@@ -1,40 +1,61 @@
-# 🧮 NumPy Learning & Practice
+# 🔢 NumPy Learning & Practice
 
-Welcome to my **NumPy Learning Repository** — a collection of notebooks, exercises, and notes documenting my journey of mastering **NumPy**, the fundamental library for numerical and scientific computing in Python.
-
----
-
-## 🚀 About This Repository
-
-This repository is built to help me (and others!) **learn NumPy from scratch through hands-on practice**.  
-Each notebook focuses on a specific concept — from array creation to advanced operations — explained with simple examples, exercises, and visual outputs.
-
-Whether you’re a beginner in Python or diving into data science, this repo is a great place to strengthen your foundation.
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![NumPy](https://img.shields.io/badge/NumPy-Array%20Computing-orange)
+![Jupyter](https://img.shields.io/badge/Notebook-Interactive-brightgreen)
 
 ---
 
-## 🧩 Topics Covered
+## 📖 Overview
 
-| # | Topic | Description |
-|---|--------|--------------|
-| 1 | **NumPy Basics** | Creating arrays, zeros, ones, identity matrices |
-| 2 | **Array Attributes** | Understanding shape, size, dtype, and dimensions |
-| 3 | **Indexing & Slicing** | Accessing and modifying array elements |
-| 4 | **Arithmetic & Aggregations** | Math, stats, and broadcasting |
-| 5 | **Random & Special Arrays** | Random integers, seeds, and structured arrays |
-| 6 | **Reshaping & Stacking** | Transforming and combining arrays efficiently |
+Welcome to my **NumPy Learning & Practice Repository**!  
+This repository documents my journey to mastering **[NumPy](https://numpy.org/)** — the fundamental Python library for **numerical computation, array manipulation, and mathematical operations**.  
+
+It contains **Jupyter notebooks**, **hands-on code examples**, and **step-by-step explanations** from beginner to advanced levels.
+
+> 🎯 Goal: Develop strong numerical computing and array manipulation skills to build a foundation for data science and machine learning.
 
 ---
 
-## 🧠 Practice Questions
+## 🌟 Learning Objectives
 
-👉 20+ beginner-friendly NumPy exercises, such as:
-- Create a 1D array of numbers from 0–9  
-- Extract every second element from an array  
-- Generate a 3×3 matrix with random integers  
-- Compute mean, standard deviation, min, and max of an array  
-
-Each question is designed to help you think in terms of **arrays, shapes, and operations**, which are the building blocks of data science.
+- 🔢 **Understand NumPy Arrays:** Creation, indexing, slicing, and reshaping  
+- ⚙️ **Vectorized Operations:** Perform fast element-wise computations  
+- 🧮 **Mathematical Functions:** Apply universal functions (`ufuncs`) efficiently  
+- 📊 **Statistics & Aggregation:** Use built-in methods for data summaries  
+- 🔗 **Broadcasting:** Master how NumPy handles operations between different shapes  
+- 📚 **Linear Algebra:** Learn dot products, matrix multiplication, and inverses  
+- 🧠 **Random Module:** Work with random numbers and distributions  
 
 ---
 
+Each notebook focuses on one NumPy concept with explanations, exercises, and examples.
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+
+git clone https://github.com/mohitjaryal/numpy.git
+cd numpy
+
+### Setup Environment
+python -m venv venv
+
+### Activate Environment
+
+Mac / Linux
+source venv/bin/activate
+
+Windows
+venv\Scripts\activate
+
+### Install Dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+### Launch Jupyter Notebook
+jupyter notebook
